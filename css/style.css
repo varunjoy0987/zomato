@@ -1,0 +1,113 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #fff4f4;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #f80000;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 1.5rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fffbfb;
+    font-weight: bold;
+}
+
+main section {
+    background: url(' https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png  ') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+main section img {
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+main section p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main section input {
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.delivery-info {
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.delivery-info p {
+    color: #f4f4f4;
+    margin-bottom: 2rem;
+}
+
+.main-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features {
+    width: 30%;
+    margin: 1rem 0;
+    background-color: #ff0000;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.delivery-info h2{
+color: #000000;
+margin-bottom: 0.5rem;
+
+}
+.features h3 {
+    color: #fffbfb;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff0303;
+    color: #ffffff;
+}
+
